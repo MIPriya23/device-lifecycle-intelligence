@@ -1,0 +1,61 @@
+*.md
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Python / FastAPI ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.log
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment files ─────────────────────────────────────────────────────────
+.env
+api/.env
+ui/.env
+# keep the examples
+!.env.example
+!api/.env.example
+!ui/.env.example
+
+# ── Node / UI ─────────────────────────────────────────────────────────────────
+node_modules/
+ui/node_modules/
+ui/dist/
+ui/.vite/
+*.tsbuildinfo
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+# Named volumes live inside Docker; nothing to ignore here
+
+# ── MongoDB local data (if running mongo outside Docker) ──────────────────────
+data/
+mongo-data/

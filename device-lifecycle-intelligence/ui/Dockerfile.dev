@@ -1,0 +1,12 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Install dependencies in the image so they are not overwritten by the volume mount
+COPY package*.json ./
+RUN npm install
+
+# Source is mounted as a volume at runtime — no COPY needed here
+EXPOSE 5173
+
+CMD ["npm", "run", "dev"]

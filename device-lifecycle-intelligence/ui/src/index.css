@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: var(--p1);
+    color: var(--p5);
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--p1);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--p3);
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--p2);
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-p2/5 border border-p2/25 rounded-2xl shadow-card;
+  }
+
+  .card-hover {
+    @apply card transition-all duration-200 hover:border-p2/55 hover:shadow-glow;
+  }
+
+  .label-text {
+    @apply text-xs font-medium text-p3 uppercase tracking-widest;
+  }
+
+  .stat-value {
+    @apply text-2xl font-semibold text-p5;
+  }
+
+  .btn-primary {
+    @apply px-5 py-2.5 bg-p2 text-white text-sm font-semibold rounded-xl
+           hover:bg-p3 active:scale-[0.98] transition-all duration-150;
+  }
+
+  .btn-ghost {
+    @apply px-5 py-2.5 border border-p3/60 text-p3 text-sm font-medium rounded-xl
+           hover:border-p2/70 hover:text-p2 active:scale-[0.98] transition-all duration-150;
+  }
+
+  .btn-danger {
+    @apply px-5 py-2.5 border border-red-400/60 text-red-600 text-sm font-medium rounded-xl
+           hover:bg-red-50 hover:border-red-500 active:scale-[0.98] transition-all duration-150;
+  }
+}

@@ -1,0 +1,2614 @@
+[
+  {
+    "_id": "AC:84:C6:9A:11:23",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:11:23",
+      "serial_number": "XB7-8839201",
+      "model": "XB7",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2024-03-11",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB7-111221"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-03-15",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-01",
+      "warehouse_bin": "BIN-B12",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-551201",
+      "customer_id": "CUS-551201",
+      "current_service_location": "customer_home_1",
+      "activation_platform": "Titan_API"
+    },
+    "device_tags": [
+      "healthy_device",
+      "stable_performance"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 100,
+      "failure_risk_score": 0.0,
+      "redeploy_safe": true,
+      "truck_roll_count": 0,
+      "last_evaluated": "2026-03-12T18:58:24.000Z",
+      "recommendation": {
+        "recommendation_message": "Device is in excellent condition (Health: 100/100, Risk: 0.00). STRONGLY RECOMMENDED for redeployment.",
+        "key_concerns": [
+          "No significant issues detected"
+        ]
+      }
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-08-10T11:00:00Z",
+        "firmware_version": "6.7p8"
+      },
+      {
+        "event_type": "wifi_performance_issue",
+        "event_category": "telemetry",
+        "timestamp": "2024-10-02T11:00:00Z",
+        "metrics": {
+          "snr": 34,
+          "rssi": -60
+        },
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM"
+        ]
+      }
+    ],
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:10:00Z",
+      "snr": 38,
+      "packet_loss": 0.1,
+      "latency_ms": 12,
+      "temperature_c": 47,
+      "cpu_usage_percent": 33,
+      "memory_usage_percent": 51,
+      "connected_wifi_clients": 6
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:11:24",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:11:24",
+      "serial_number": "XB6-992812",
+      "model": "XB6",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Arris",
+      "platform": "RDK-B",
+      "manufacture_date": "2023-11-18",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-88231"
+    },
+    "inventory_info": {
+      "procurement_date": "2023-12-01",
+      "procurement_vendor": "Arris",
+      "warehouse_id": "WH-DEN-03",
+      "warehouse_bin": "BIN-C10",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-772911",
+      "customer_id": "CUS-772911",
+      "current_service_location": "customer_home_3",
+      "activation_platform": "Titan_API"
+    },
+    "device_tags": [
+      "thermal_events",
+      "unstable_device"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 65,
+      "failure_risk_score": 0.4,
+      "redeploy_safe": false,
+      "truck_roll_count": 1,
+      "last_evaluated": "2026-03-12T18:58:42.000Z",
+      "recommendation": {
+        "recommendation_message": "Device has concerning history (Health: 65/100, Risk: 0.40). NOT RECOMMENDED unless issues are addressed.",
+        "key_concerns": [
+          "1 device crash event(s)",
+          "1 thermal event(s)",
+          "High temperature: 56\u00b0C"
+        ]
+      }
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "thermal_reboot",
+        "event_category": "telemetry",
+        "timestamp": "2024-11-05T02:30:00Z",
+        "metrics": {
+          "chip_temperature": 104
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_Thermal_reboot",
+          "thermal_ChipTemp_split"
+        ]
+      },
+      {
+        "event_type": "device_crash",
+        "event_category": "crash",
+        "timestamp": "2024-11-06T04:21:00Z",
+        "component": "wifi_hal"
+      }
+    ],
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 35,
+      "downstream_power": 1.6,
+      "upstream_power": 40,
+      "packet_loss": 0.4,
+      "latency_ms": 21,
+      "temperature_c": 56,
+      "cpu_usage_percent": 46,
+      "memory_usage_percent": 63,
+      "reboots_last_30_days": 1,
+      "connected_wifi_clients": 8
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:11:25",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:11:25",
+      "serial_number": "XB7-112883",
+      "model": "XB7",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2024-01-18",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB7-33321"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-02-01",
+      "warehouse_id": "WH-DEN-02",
+      "warehouse_bin": "BIN-A11",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "device_tags": [
+      "memory_pressure",
+      "frequent_reboots"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 55,
+      "failure_risk_score": 0.54,
+      "redeploy_safe": false,
+      "truck_roll_count": 1,
+      "last_evaluated": "2026-03-12T13:23:08.000Z",
+      "recommendation": {
+        "recommendation_message": "Device has reliability concerns (health score: 55/100, risk: 0.54). Review recommended before redeployment.",
+        "key_concerns": [
+          "1 memory pressure event(s) detected",
+          "1 kernel panic event(s) detected",
+          "3 reboots in last 30 days"
+        ]
+      }
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "memory_pressure_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-10-22T05:10:00Z",
+        "metrics": {
+          "memory_usage_mb": 700
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_MemAbove600",
+          "advresmem_split"
+        ]
+      },
+      {
+        "event_type": "kernel_panic_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-10-24T04:00:00Z",
+        "metrics": {
+          "panic_count": 4
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_kp_work_pending"
+        ]
+      }
+    ],
+    "customer_association": {
+      "customer_account_number": "ACC-535554",
+      "customer_id": "CUS-535554",
+      "current_service_location": "customer_home_3",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 30,
+      "downstream_power": 0.8,
+      "upstream_power": 40,
+      "packet_loss": 0.5,
+      "latency_ms": 25,
+      "temperature_c": 48,
+      "cpu_usage_percent": 53,
+      "memory_usage_percent": 58,
+      "reboots_last_30_days": 3,
+      "connected_wifi_clients": 4
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:11:26",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:11:26",
+      "serial_number": "XB7-776611",
+      "model": "XB7",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2024-02-20",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB7-133333"
+    },
+    "device_tags": [
+      "wifi_performance_issue",
+      "customer_complaint_linked"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 72,
+      "failure_risk_score": 0.34,
+      "redeploy_safe": true,
+      "truck_roll_count": 1,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "wifi_performance_issue",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-02T11:00:00Z",
+        "metrics": {
+          "snr": 28,
+          "rssi": -72
+        },
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM",
+          "WifiTemp_2G_split"
+        ]
+      },
+      {
+        "event_type": "customer_complaint",
+        "event_category": "customer_experience",
+        "timestamp": "2024-09-05T09:30:00Z",
+        "issue": "slow_wifi"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-04-10",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-ATL-01",
+      "warehouse_bin": "BIN-B12",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-553331",
+      "customer_id": "CUS-553331",
+      "current_service_location": "customer_home_4",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 33,
+      "downstream_power": 0.6,
+      "upstream_power": 39,
+      "packet_loss": 0.6,
+      "latency_ms": 17,
+      "temperature_c": 49,
+      "cpu_usage_percent": 41,
+      "memory_usage_percent": 62,
+      "reboots_last_30_days": 1,
+      "connected_wifi_clients": 4
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:11:27",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:11:27",
+      "serial_number": "XB6-339182",
+      "model": "XB6",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Arris",
+      "platform": "RDK-B",
+      "manufacture_date": "2023-10-11",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-144444"
+    },
+    "device_tags": [
+      "refurbished",
+      "multiple_failures"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 41,
+      "failure_risk_score": 0.7,
+      "redeploy_safe": false,
+      "truck_roll_count": 2,
+      "last_evaluated": "2026-03-13T11:59:23.000Z",
+      "recommendation": {
+        "recommendation_message": "Device has significant reliability issues (Health: 41/100, Risk: 0.70). STRONGLY NOT RECOMMENDED for redeployment.",
+        "key_concerns": [
+          "2 warehouse repair/refurbishment event(s)",
+          "1 device crash event(s)",
+          "3 reboots in last 30 days"
+        ]
+      }
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_crash",
+        "event_category": "crash",
+        "timestamp": "2024-11-12T04:33:00Z",
+        "component": "rdkssacli"
+      },
+      {
+        "event_type": "warehouse_diagnostics",
+        "event_category": "warehouse",
+        "timestamp": "2024-12-25T12:00:00Z",
+        "diagnostics_results": [
+          "nvram_corruption_confirmed"
+        ]
+      },
+      {
+        "event_type": "refurbishment",
+        "event_category": "repair",
+        "timestamp": "2024-12-27T16:00:00Z",
+        "actions": [
+          "nvram_reset",
+          "firmware_flash_6.7p8"
+        ]
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-05-13",
+      "procurement_vendor": "Arris",
+      "warehouse_id": "WH-CHI-01",
+      "warehouse_bin": "BIN-B15",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-571108",
+      "customer_id": "CUS-571108",
+      "current_service_location": "customer_home_5",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 33,
+      "downstream_power": 2.1,
+      "upstream_power": 42,
+      "packet_loss": 0.4,
+      "latency_ms": 18,
+      "temperature_c": 51,
+      "cpu_usage_percent": 50,
+      "memory_usage_percent": 66,
+      "reboots_last_30_days": 3,
+      "connected_wifi_clients": 8
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:21:11",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:21:11",
+      "serial_number": "XB6-1129201",
+      "model": "XB6",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2023-12-10",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-155555"
+    },
+    "device_tags": [
+      "memory_pressure",
+      "kernel_panic"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 59,
+      "failure_risk_score": 0.61,
+      "redeploy_safe": false,
+      "truck_roll_count": 1,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "memory_pressure_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-10-05T05:10:00Z",
+        "metrics": {
+          "memory_usage_mb": 680
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_MemAbove600",
+          "advresmem_split"
+        ]
+      },
+      {
+        "event_type": "kernel_panic_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-10-06T04:00:00Z",
+        "metrics": {
+          "panic_count": 2
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_kp_work_pending"
+        ]
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-06-16",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-01",
+      "warehouse_bin": "BIN-C10",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-588885",
+      "customer_id": "CUS-588885",
+      "current_service_location": "customer_home_6",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 35,
+      "downstream_power": 1.4,
+      "upstream_power": 35,
+      "packet_loss": 0.5,
+      "latency_ms": 24,
+      "temperature_c": 50,
+      "cpu_usage_percent": 52,
+      "memory_usage_percent": 66,
+      "reboots_last_30_days": 3,
+      "connected_wifi_clients": 5
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:21:12",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:21:12",
+      "serial_number": "XB7-8892211",
+      "model": "XB7",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2024-01-11",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB7-166666"
+    },
+    "device_tags": [
+      "wifi_issue",
+      "thermal_event"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 63,
+      "failure_risk_score": 0.48,
+      "redeploy_safe": false,
+      "truck_roll_count": 1,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "wifi_performance_issue",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-02T11:00:00Z",
+        "metrics": {
+          "snr": 30,
+          "rssi": -70
+        },
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM"
+        ]
+      },
+      {
+        "event_type": "thermal_reboot",
+        "event_category": "telemetry",
+        "timestamp": "2024-10-10T02:15:00Z",
+        "metrics": {
+          "chip_temperature": 103
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_Thermal_reboot",
+          "thermal_ChipTemp_split"
+        ]
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-07-19",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-02",
+      "warehouse_bin": "BIN-C14",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-606662",
+      "customer_id": "CUS-606662",
+      "current_service_location": "customer_home_7",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 29,
+      "downstream_power": 1.7,
+      "upstream_power": 40,
+      "packet_loss": 0.3,
+      "latency_ms": 17,
+      "temperature_c": 57,
+      "cpu_usage_percent": 40,
+      "memory_usage_percent": 65,
+      "reboots_last_30_days": 2,
+      "connected_wifi_clients": 4
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:20:54",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:20:54",
+      "serial_number": "XB7-8892211",
+      "model": "XB7",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2024-01-11",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB7-166666"
+    },
+    "device_tags": [
+      "multiple_activations",
+      "multiple_deactivations"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 0,
+      "failure_risk_score": 1.0,
+      "redeploy_safe": false,
+      "truck_roll_count": 1,
+      "last_evaluated": "2026-03-13T12:11:20.000Z",
+      "recommendation": {
+        "recommendation_message": "Device has significant reliability issues (Health: 0/100, Risk: 1.00). STRONGLY NOT RECOMMENDED for redeployment.",
+        "key_concerns": [
+          "7 warehouse repair/refurbishment event(s)",
+          "3 device swap/replacement event(s)",
+          "3 device return/customer complaint event(s)",
+          "2 thermal event(s)",
+          "High temperature: 57\u00b0C"
+        ]
+      }
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_procured",
+        "event_category": "warehouse",
+        "timestamp": "2024-07-19T08:00:00Z",
+        "warehouse_id": "WH-DEN-02"
+      },
+      {
+        "event_type": "stored_in_bin",
+        "event_category": "warehouse",
+        "timestamp": "2024-07-20T09:00:00Z",
+        "bin_location": "BIN-C14"
+      },
+      {
+        "event_type": "device_shipped_to_customer",
+        "event_category": "lifecycle",
+        "timestamp": "2024-08-05T10:30:00Z",
+        "customer_account_number": "ACC-606662",
+        "tracking_id": "TRK-505001"
+      },
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-08-06T14:20:00Z",
+        "firmware_version": "6.1p5",
+        "customer_account_number": "ACC-606662"
+      },
+      {
+        "event_type": "customer_complaint",
+        "event_category": "customer_experience",
+        "timestamp": "2024-09-15T11:30:00Z",
+        "issue": "intermittent_connectivity"
+      },
+      {
+        "event_type": "device_deactivation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-09-18T09:45:00Z",
+        "reason": "customer_requested_replacement",
+        "customer_account_number": "ACC-606662"
+      },
+      {
+        "event_type": "warehouse_diagnostics",
+        "event_category": "warehouse",
+        "timestamp": "2024-09-22T13:00:00Z",
+        "diagnostics_results": [
+          "basic_functionality_normal",
+          "no_hardware_issues_found"
+        ]
+      },
+      {
+        "event_type": "device_shipped_to_customer",
+        "event_category": "lifecycle",
+        "timestamp": "2024-10-01T11:00:00Z",
+        "customer_account_number": "ACC-707773",
+        "tracking_id": "TRK-505002"
+      },
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-10-02T16:10:00Z",
+        "firmware_version": "6.2p2",
+        "customer_account_number": "ACC-707773"
+      },
+      {
+        "event_type": "wifi_performance_issue",
+        "event_category": "telemetry",
+        "timestamp": "2024-10-20T08:45:00Z",
+        "metrics": {
+          "snr": 28,
+          "rssi": -72
+        },
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM",
+          "WifiTemp_2G_split"
+        ]
+      },
+      {
+        "event_type": "device_deactivation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-10-25T14:30:00Z",
+        "reason": "persistent_wifi_issues",
+        "customer_account_number": "ACC-707773"
+      },
+      {
+        "event_type": "device_returned_to_warehouse",
+        "event_category": "warehouse",
+        "timestamp": "2024-10-28T10:00:00Z",
+        "warehouse_id": "WH-DEN-02"
+      },
+      {
+        "event_type": "firmware_update",
+        "event_category": "repair",
+        "timestamp": "2024-11-02T15:30:00Z",
+        "firmware_version": "6.3p1",
+        "update_type": "diagnostic_fix"
+      },
+      {
+        "event_type": "device_shipped_to_customer",
+        "event_category": "lifecycle",
+        "timestamp": "2024-11-10T09:15:00Z",
+        "customer_account_number": "ACC-808884",
+        "tracking_id": "TRK-505003"
+      },
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-11-11T13:40:00Z",
+        "firmware_version": "6.3p1",
+        "customer_account_number": "ACC-808884"
+      },
+      {
+        "event_type": "thermal_warning",
+        "event_category": "telemetry",
+        "timestamp": "2024-12-05T04:20:00Z",
+        "metrics": {
+          "chip_temperature": 98
+        },
+        "telemetry_markers": [
+          "thermal_ChipTemp_split"
+        ]
+      },
+      {
+        "event_type": "device_deactivation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-12-18T16:00:00Z",
+        "reason": "overheating_concerns",
+        "customer_account_number": "ACC-808884"
+      },
+      {
+        "event_type": "device_returned_to_warehouse",
+        "event_category": "warehouse",
+        "timestamp": "2024-12-22T11:30:00Z",
+        "warehouse_id": "WH-DEN-02"
+      },
+      {
+        "event_type": "thermal_testing",
+        "event_category": "warehouse",
+        "timestamp": "2025-01-05T14:00:00Z",
+        "test_results": "within_normal_range"
+      },
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2025-01-15T10:20:00Z",
+        "firmware_version": "6.4p3",
+        "customer_account_number": "ACC-909995",
+        "activation_note": "post_thermal_test"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-07-19",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-02",
+      "warehouse_bin": "BIN-C14",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-606662",
+      "customer_id": "CUS-606662",
+      "current_service_location": "customer_home_7",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 29,
+      "downstream_power": 1.7,
+      "upstream_power": 40,
+      "packet_loss": 0.3,
+      "latency_ms": 17,
+      "temperature_c": 57,
+      "cpu_usage_percent": 40,
+      "memory_usage_percent": 65,
+      "reboots_last_30_days": 2,
+      "connected_wifi_clients": 4
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:21:13",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:21:13",
+      "serial_number": "XB8-7732210",
+      "model": "XB8",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2024-02-20",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-177777"
+    },
+    "device_tags": [
+      "multiple_failures"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 54,
+      "failure_risk_score": 0.67,
+      "redeploy_safe": false,
+      "truck_roll_count": 2,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "memory_pressure_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-11-02T05:10:00Z",
+        "metrics": {
+          "memory_usage_mb": 720
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_MemAbove600"
+        ]
+      },
+      {
+        "event_type": "device_crash",
+        "event_category": "crash",
+        "timestamp": "2024-11-04T04:33:00Z",
+        "component": "wifi_hal"
+      },
+      {
+        "event_type": "wifi_performance_issue",
+        "event_category": "telemetry",
+        "timestamp": "2024-11-05T11:00:00Z",
+        "metrics": {
+          "snr": 29
+        },
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM",
+          "WifiTemp_2G_split"
+        ]
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-08-22",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-03",
+      "warehouse_bin": "BIN-A11",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-624439",
+      "customer_id": "CUS-624439",
+      "current_service_location": "customer_home_8",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 28,
+      "downstream_power": 2.3,
+      "upstream_power": 35,
+      "packet_loss": 0.5,
+      "latency_ms": 20,
+      "temperature_c": 57,
+      "cpu_usage_percent": 53,
+      "memory_usage_percent": 64,
+      "reboots_last_30_days": 2,
+      "connected_wifi_clients": 4
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:21:14",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:21:14",
+      "serial_number": "XB7-4427711",
+      "model": "XB7",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2023-09-01",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB7-188888"
+    },
+    "device_tags": [
+      "crash_events",
+      "kernel_panic"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 57,
+      "failure_risk_score": 0.58,
+      "redeploy_safe": false,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "kernel_panic_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-11-15T04:00:00Z",
+        "metrics": {
+          "panic_count": 3
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_kp_work_pending",
+          "SYS_ERROR_KMSG_Buffer_overrun"
+        ]
+      },
+      {
+        "event_type": "device_crash",
+        "event_category": "crash",
+        "timestamp": "2024-11-16T04:33:00Z",
+        "component": "rdkssacli"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-09-25",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-ATL-01",
+      "warehouse_bin": "BIN-A12",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-642216",
+      "customer_id": "CUS-642216",
+      "current_service_location": "customer_home_9",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 31,
+      "downstream_power": 0.9,
+      "upstream_power": 36,
+      "packet_loss": 0.4,
+      "latency_ms": 16,
+      "temperature_c": 50,
+      "cpu_usage_percent": 40,
+      "memory_usage_percent": 59,
+      "reboots_last_30_days": 1,
+      "connected_wifi_clients": 7
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:21:15",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:21:15",
+      "serial_number": "XB8-9910021",
+      "model": "XB8",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2023-10-08",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-199999"
+    },
+    "device_tags": [
+      "thermal_event",
+      "memory_issue",
+      "device_crash"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 52,
+      "failure_risk_score": 0.71,
+      "redeploy_safe": false,
+      "truck_roll_count": 2,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "thermal_reboot",
+        "event_category": "telemetry",
+        "timestamp": "2024-12-01T02:15:00Z",
+        "metrics": {
+          "chip_temperature": 105
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_Thermal_reboot"
+        ]
+      },
+      {
+        "event_type": "memory_pressure_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-12-02T05:10:00Z",
+        "metrics": {
+          "memory_usage_mb": 690
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_MemAbove600"
+        ]
+      },
+      {
+        "event_type": "device_crash",
+        "event_category": "crash",
+        "timestamp": "2024-12-03T04:33:00Z",
+        "component": "wifi_hal"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-01-28",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-CHI-01",
+      "warehouse_bin": "BIN-A23",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-659993",
+      "customer_id": "CUS-659993",
+      "current_service_location": "customer_home_10",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 35,
+      "downstream_power": 2.2,
+      "upstream_power": 37,
+      "packet_loss": 0.4,
+      "latency_ms": 24,
+      "temperature_c": 54,
+      "cpu_usage_percent": 51,
+      "memory_usage_percent": 69,
+      "reboots_last_30_days": 3,
+      "connected_wifi_clients": 7
+    }
+  },
+  {
+    "_id": "AC:84:C6:AA:11:01",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:01",
+      "serial_number": "XB6-100001",
+      "model": "XB6",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2023-11-15",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-211110"
+    },
+    "device_tags": [
+      "healthy_device"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 94,
+      "failure_risk_score": 0.05,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "timestamp": "2024-08-01T10:00:00Z",
+        "firmware_version": "6.7p8"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-02-03",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-01",
+      "warehouse_bin": "BIN-B12",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-677770",
+      "customer_id": "CUS-677770",
+      "current_service_location": "customer_home_1",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 40,
+      "downstream_power": 0.8,
+      "upstream_power": 40,
+      "packet_loss": 0.2,
+      "latency_ms": 12,
+      "temperature_c": 46,
+      "cpu_usage_percent": 26,
+      "memory_usage_percent": 53,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 6
+    }
+  },
+  {
+    "_id": "AC:84:C6:AA:11:02",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:02",
+      "serial_number": "XB8-100002",
+      "model": "XB8",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2023-12-22",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-222221"
+    },
+    "device_tags": [
+      "stable_device"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 96,
+      "failure_risk_score": 0.03,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "timestamp": "2024-08-05T11:00:00Z",
+        "firmware_version": "7.1p1"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-03-06",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-02",
+      "warehouse_bin": "BIN-B15",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-695547",
+      "customer_id": "CUS-695547",
+      "current_service_location": "customer_home_2",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 36,
+      "downstream_power": 1.8,
+      "upstream_power": 39,
+      "packet_loss": 0.2,
+      "latency_ms": 15,
+      "temperature_c": 46,
+      "cpu_usage_percent": 31,
+      "memory_usage_percent": 52,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 8
+    }
+  },
+  {
+    "_id": "AC:84:C6:AA:11:03",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:03",
+      "serial_number": "XB10-100003",
+      "model": "XB10",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2023-01-01",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB10-233332"
+    },
+    "device_tags": [
+      "healthy_device"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 97,
+      "failure_risk_score": 0.02,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-04-09",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-03",
+      "warehouse_bin": "BIN-C10",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-713324",
+      "customer_id": "CUS-713324",
+      "current_service_location": "customer_home_3",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 37,
+      "downstream_power": 1.4,
+      "upstream_power": 38,
+      "packet_loss": 0.1,
+      "latency_ms": 11,
+      "temperature_c": 44,
+      "cpu_usage_percent": 36,
+      "memory_usage_percent": 46,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 5
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-04-05T10:00:00Z",
+        "firmware_version": "6.7p8"
+      }
+    ]
+  },
+  {
+    "_id": "AC:84:C6:AA:11:04",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:04",
+      "serial_number": "XB6-100004",
+      "model": "XB6",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2023-02-08",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-244443"
+    },
+    "device_tags": [
+      "good_performance"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 93,
+      "failure_risk_score": 0.07,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-05-12",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-ATL-01",
+      "warehouse_bin": "BIN-C14",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-731101",
+      "customer_id": "CUS-731101",
+      "current_service_location": "customer_home_4",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 35,
+      "downstream_power": 2.3,
+      "upstream_power": 35,
+      "packet_loss": 0.2,
+      "latency_ms": 14,
+      "temperature_c": 49,
+      "cpu_usage_percent": 35,
+      "memory_usage_percent": 53,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 7
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-05-10T10:00:00Z",
+        "firmware_version": "6.7p8"
+      }
+    ]
+  },
+  {
+    "_id": "AC:84:C6:AA:11:05",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:05",
+      "serial_number": "XB8-100005",
+      "model": "XB8",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2023-03-15",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-255554"
+    },
+    "device_tags": [
+      "stable_network"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 95,
+      "failure_risk_score": 0.04,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-06-15",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-CHI-01",
+      "warehouse_bin": "BIN-A11",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-748878",
+      "customer_id": "CUS-748878",
+      "current_service_location": "customer_home_5",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 35,
+      "downstream_power": 0.6,
+      "upstream_power": 36,
+      "packet_loss": 0.0,
+      "latency_ms": 15,
+      "temperature_c": 48,
+      "cpu_usage_percent": 29,
+      "memory_usage_percent": 54,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 5
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-06-15T10:00:00Z",
+        "firmware_version": "6.7p8"
+      }
+    ]
+  },
+  {
+    "_id": "AC:84:C6:AA:11:06",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:06",
+      "serial_number": "XB10-100006",
+      "model": "XB10",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-04-22",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB10-266665"
+    },
+    "device_tags": [
+      "healthy_device"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 98,
+      "failure_risk_score": 0.01,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-07-18",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-01",
+      "warehouse_bin": "BIN-A12",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-766655",
+      "customer_id": "CUS-766655",
+      "current_service_location": "customer_home_6",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 38,
+      "downstream_power": 2.0,
+      "upstream_power": 39,
+      "packet_loss": 0.0,
+      "latency_ms": 10,
+      "temperature_c": 43,
+      "cpu_usage_percent": 33,
+      "memory_usage_percent": 53,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 7
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-07-20T10:00:00Z",
+        "firmware_version": "6.7p8"
+      }
+    ]
+  },
+  {
+    "_id": "AC:84:C6:AA:11:07",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:07",
+      "serial_number": "XB6-100007",
+      "model": "XB6",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-05-01",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-277776"
+    },
+    "device_tags": [
+      "healthy_device"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 92,
+      "failure_risk_score": 0.06,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-08-21",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-02",
+      "warehouse_bin": "BIN-A23",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-784432",
+      "customer_id": "CUS-784432",
+      "current_service_location": "customer_home_7",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 36,
+      "downstream_power": 2.1,
+      "upstream_power": 42,
+      "packet_loss": 0.1,
+      "latency_ms": 10,
+      "temperature_c": 42,
+      "cpu_usage_percent": 27,
+      "memory_usage_percent": 53,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 8
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-08-25T10:00:00Z",
+        "firmware_version": "6.7p8"
+      }
+    ]
+  },
+  {
+    "_id": "AC:84:C6:AA:11:08",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:08",
+      "serial_number": "XB8-100008",
+      "model": "XB8",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-06-08",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-288887"
+    },
+    "device_tags": [
+      "stable_device"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 95,
+      "failure_risk_score": 0.03,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-09-24",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-03",
+      "warehouse_bin": "BIN-B12",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-802209",
+      "customer_id": "CUS-802209",
+      "current_service_location": "customer_home_8",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 40,
+      "downstream_power": 1.9,
+      "upstream_power": 42,
+      "packet_loss": 0.2,
+      "latency_ms": 10,
+      "temperature_c": 47,
+      "cpu_usage_percent": 26,
+      "memory_usage_percent": 47,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 8
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-09-02T10:00:00Z",
+        "firmware_version": "6.7p8"
+      }
+    ]
+  },
+  {
+    "_id": "AC:84:C6:AA:11:09",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:09",
+      "serial_number": "XB10-100009",
+      "model": "XB10",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-07-15",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB10-299998"
+    },
+    "device_tags": [
+      "healthy_network"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 97,
+      "failure_risk_score": 0.02,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-01-27",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-ATL-01",
+      "warehouse_bin": "BIN-B15",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-819986",
+      "customer_id": "CUS-819986",
+      "current_service_location": "customer_home_9",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 35,
+      "downstream_power": 1.4,
+      "upstream_power": 38,
+      "packet_loss": 0.0,
+      "latency_ms": 11,
+      "temperature_c": 46,
+      "cpu_usage_percent": 27,
+      "memory_usage_percent": 45,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 7
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-01-07T10:00:00Z",
+        "firmware_version": "6.7p8"
+      }
+    ]
+  },
+  {
+    "_id": "AC:84:C6:AA:11:10",
+    "device_profile": {
+      "mac_id": "AC:84:C6:AA:11:10",
+      "serial_number": "XB8-100010",
+      "model": "XB8",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-08-22",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-311109"
+    },
+    "device_tags": [
+      "stable_performance"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 96,
+      "failure_risk_score": 0.03,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-02-02",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-CHI-01",
+      "warehouse_bin": "BIN-C10",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-837763",
+      "customer_id": "CUS-837763",
+      "current_service_location": "customer_home_10",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 35,
+      "downstream_power": 2.4,
+      "upstream_power": 40,
+      "packet_loss": 0.0,
+      "latency_ms": 12,
+      "temperature_c": 48,
+      "cpu_usage_percent": 36,
+      "memory_usage_percent": 53,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 5
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-02-12T10:00:00Z",
+        "firmware_version": "6.7p8"
+      }
+    ]
+  },
+  {
+    "_id": "AC:84:C6:BB:21:01",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:01",
+      "serial_number": "XB6-200001",
+      "model": "XB6",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-09-01",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-322220"
+    },
+    "device_tags": [
+      "stable_device",
+      "minor_wifi_issue"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 86,
+      "failure_risk_score": 0.18,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-08-10T10:00:00Z"
+      },
+      {
+        "event_type": "firmware_upgrade",
+        "event_category": "maintenance",
+        "timestamp": "2024-09-02T08:00:00Z",
+        "firmware_version": "6.7p8"
+      },
+      {
+        "event_type": "wifi_performance_issue",
+        "event_category": "telemetry",
+        "timestamp": "2024-10-05T10:00:00Z",
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM"
+        ]
+      },
+      {
+        "event_type": "signal_optimization_success",
+        "event_category": "maintenance",
+        "timestamp": "2024-10-06T12:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-03-05",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-01",
+      "warehouse_bin": "BIN-C14",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-855540",
+      "customer_id": "CUS-855540",
+      "current_service_location": "customer_home_1",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 36,
+      "downstream_power": 0.7,
+      "upstream_power": 38,
+      "packet_loss": 0.2,
+      "latency_ms": 15,
+      "temperature_c": 43,
+      "cpu_usage_percent": 25,
+      "memory_usage_percent": 53,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 5
+    }
+  },
+  {
+    "_id": "AC:84:C6:BB:21:02",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:02",
+      "serial_number": "XB8-200002",
+      "model": "XB8",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-10-08",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-333331"
+    },
+    "device_tags": [
+      "good_network"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 88,
+      "failure_risk_score": 0.15,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-08-11T10:00:00Z"
+      },
+      {
+        "event_type": "network_stability_check_passed",
+        "event_category": "ai_monitoring",
+        "timestamp": "2024-09-01T10:00:00Z"
+      },
+      {
+        "event_type": "memory_pressure_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-12T05:00:00Z",
+        "telemetry_markers": [
+          "SYS_ERROR_MemAbove600"
+        ]
+      },
+      {
+        "event_type": "memory_optimization_success",
+        "event_category": "maintenance",
+        "timestamp": "2024-09-13T09:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-04-08",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-02",
+      "warehouse_bin": "BIN-A11",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-873317",
+      "customer_id": "CUS-873317",
+      "current_service_location": "customer_home_2",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 38,
+      "downstream_power": 0.9,
+      "upstream_power": 39,
+      "packet_loss": 0.0,
+      "latency_ms": 11,
+      "temperature_c": 42,
+      "cpu_usage_percent": 29,
+      "memory_usage_percent": 54,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 6
+    }
+  },
+  {
+    "_id": "AC:84:C6:BB:21:03",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:03",
+      "serial_number": "XB6-200003",
+      "model": "XB6",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-11-15",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-344442"
+    },
+    "device_tags": [
+      "minor_temperature_event"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 84,
+      "failure_risk_score": 0.22,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-07-10T10:00:00Z"
+      },
+      {
+        "event_type": "firmware_upgrade",
+        "event_category": "maintenance",
+        "timestamp": "2024-08-01T09:00:00Z"
+      },
+      {
+        "event_type": "thermal_alert",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-03T02:00:00Z",
+        "telemetry_markers": [
+          "thermal_ChipTemp_split"
+        ]
+      },
+      {
+        "event_type": "cooling_recovery_success",
+        "event_category": "maintenance",
+        "timestamp": "2024-09-03T04:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-05-11",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-03",
+      "warehouse_bin": "BIN-A12",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-891094",
+      "customer_id": "CUS-891094",
+      "current_service_location": "customer_home_3",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:00:00Z",
+      "snr": 28,
+      "downstream_power": 1.2,
+      "upstream_power": 37,
+      "packet_loss": 0.5,
+      "latency_ms": 16,
+      "temperature_c": 58,
+      "cpu_usage_percent": 49,
+      "memory_usage_percent": 68,
+      "reboots_last_30_days": 3,
+      "connected_wifi_clients": 8
+    }
+  },
+  {
+    "_id": "AC:84:C6:BB:21:04",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:04",
+      "serial_number": "XB8-200004",
+      "model": "XB8",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-12-22",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-355553"
+    },
+    "device_tags": [
+      "stable_wifi"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 90,
+      "failure_risk_score": 0.14,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-08-18T10:00:00Z"
+      },
+      {
+        "event_type": "wifi_optimization_applied",
+        "event_category": "maintenance",
+        "timestamp": "2024-09-10T08:00:00Z"
+      },
+      {
+        "event_type": "wifi_performance_issue",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-12T10:00:00Z",
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM"
+        ]
+      },
+      {
+        "event_type": "wifi_recovery_success",
+        "event_category": "maintenance",
+        "timestamp": "2024-09-12T12:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-06-14",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-ATL-01",
+      "warehouse_bin": "BIN-A23",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-908871",
+      "customer_id": "CUS-908871",
+      "current_service_location": "customer_home_4",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 40,
+      "downstream_power": 2.2,
+      "upstream_power": 38,
+      "packet_loss": 0.2,
+      "latency_ms": 14,
+      "temperature_c": 46,
+      "cpu_usage_percent": 40,
+      "memory_usage_percent": 46,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 5
+    }
+  },
+  {
+    "_id": "AC:84:C6:BB:21:05",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:05",
+      "serial_number": "XB6-200005",
+      "model": "XB6",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-01-01",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-366664"
+    },
+    "device_tags": [
+      "minor_memory_event"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 85,
+      "failure_risk_score": 0.19,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-07-01T10:00:00Z"
+      },
+      {
+        "event_type": "firmware_upgrade",
+        "event_category": "maintenance",
+        "timestamp": "2024-07-20T10:00:00Z"
+      },
+      {
+        "event_type": "memory_pressure_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-08-12T05:00:00Z",
+        "telemetry_markers": [
+          "advresmem_split"
+        ]
+      },
+      {
+        "event_type": "auto_memory_cleanup_success",
+        "event_category": "maintenance",
+        "timestamp": "2024-08-12T06:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-07-17",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-CHI-01",
+      "warehouse_bin": "BIN-B12",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-926648",
+      "customer_id": "CUS-926648",
+      "current_service_location": "customer_home_5",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 40,
+      "downstream_power": 1.4,
+      "upstream_power": 38,
+      "packet_loss": 0.2,
+      "latency_ms": 14,
+      "temperature_c": 50,
+      "cpu_usage_percent": 37,
+      "memory_usage_percent": 49,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 7
+    }
+  },
+  {
+    "_id": "AC:84:C6:BB:21:06",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:06",
+      "serial_number": "XB8-200006",
+      "model": "XB8",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-02-08",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-377775"
+    },
+    "device_tags": [
+      "stable_network"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 89,
+      "failure_risk_score": 0.16,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-08-03T10:00:00Z"
+      },
+      {
+        "event_type": "ai_monitoring_passed",
+        "event_category": "ai_monitoring",
+        "timestamp": "2024-09-05T10:00:00Z"
+      },
+      {
+        "event_type": "wifi_signal_drop",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-10T10:00:00Z",
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM"
+        ]
+      },
+      {
+        "event_type": "signal_recovery_success",
+        "event_category": "maintenance",
+        "timestamp": "2024-09-10T11:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-08-20",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-01",
+      "warehouse_bin": "BIN-B15",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-944425",
+      "customer_id": "CUS-944425",
+      "current_service_location": "customer_home_6",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 39,
+      "downstream_power": 1.5,
+      "upstream_power": 38,
+      "packet_loss": 0.2,
+      "latency_ms": 12,
+      "temperature_c": 46,
+      "cpu_usage_percent": 39,
+      "memory_usage_percent": 50,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 8
+    }
+  },
+  {
+    "_id": "AC:84:C6:BB:21:07",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:07",
+      "serial_number": "XB6-200007",
+      "model": "XB6",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-03-15",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-388886"
+    },
+    "device_tags": [
+      "minor_rf_event"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 87,
+      "failure_risk_score": 0.17,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-08-15T10:00:00Z"
+      },
+      {
+        "event_type": "firmware_upgrade",
+        "event_category": "maintenance",
+        "timestamp": "2024-09-01T08:00:00Z"
+      },
+      {
+        "event_type": "rf_signal_noise",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-12T10:00:00Z",
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM"
+        ]
+      },
+      {
+        "event_type": "rf_recovery_success",
+        "event_category": "maintenance",
+        "timestamp": "2024-09-12T11:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-09-23",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-02",
+      "warehouse_bin": "BIN-C10",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-962202",
+      "customer_id": "CUS-962202",
+      "current_service_location": "customer_home_7",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 40,
+      "downstream_power": 1.1,
+      "upstream_power": 37,
+      "packet_loss": 0.0,
+      "latency_ms": 15,
+      "temperature_c": 43,
+      "cpu_usage_percent": 38,
+      "memory_usage_percent": 51,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 8
+    }
+  },
+  {
+    "_id": "AC:84:C6:BB:21:08",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:08",
+      "serial_number": "XB8-200008",
+      "model": "XB8",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-04-22",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-399997"
+    },
+    "device_tags": [
+      "minor_memory_event"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 88,
+      "failure_risk_score": 0.16,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "timestamp": "2024-08-22T10:00:00Z"
+      },
+      {
+        "event_type": "ai_health_monitoring_passed",
+        "timestamp": "2024-09-05T09:00:00Z"
+      },
+      {
+        "event_type": "memory_pressure_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-06T05:00:00Z",
+        "telemetry_markers": [
+          "SYS_ERROR_MemAbove600"
+        ]
+      },
+      {
+        "event_type": "memory_recovery_success",
+        "timestamp": "2024-09-06T06:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-01-26",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-03",
+      "warehouse_bin": "BIN-C14",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-979979",
+      "customer_id": "CUS-979979",
+      "current_service_location": "customer_home_8",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 35,
+      "downstream_power": 1.3,
+      "upstream_power": 36,
+      "packet_loss": 0.1,
+      "latency_ms": 10,
+      "temperature_c": 50,
+      "cpu_usage_percent": 26,
+      "memory_usage_percent": 45,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 6
+    }
+  },
+  {
+    "_id": "AC:84:C6:BB:21:09",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:09",
+      "serial_number": "XB6-200009",
+      "model": "XB6",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-05-01",
+      "mtbf_hours": 45000,
+      "trace_id": "TRACE-XB6-411108"
+    },
+    "device_tags": [
+      "minor_thermal_event"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 86,
+      "failure_risk_score": 0.18,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "timestamp": "2024-07-10T10:00:00Z"
+      },
+      {
+        "event_type": "firmware_upgrade",
+        "timestamp": "2024-08-05T09:00:00Z"
+      },
+      {
+        "event_type": "thermal_alert",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-01T03:00:00Z",
+        "telemetry_markers": [
+          "thermal_ChipTemp_split"
+        ]
+      },
+      {
+        "event_type": "thermal_stabilized",
+        "timestamp": "2024-09-01T04:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-02-01",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-ATL-01",
+      "warehouse_bin": "BIN-A11",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-997756",
+      "customer_id": "CUS-997756",
+      "current_service_location": "customer_home_9",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 38,
+      "downstream_power": 1.0,
+      "upstream_power": 37,
+      "packet_loss": 0.0,
+      "latency_ms": 13,
+      "temperature_c": 48,
+      "cpu_usage_percent": 30,
+      "memory_usage_percent": 51,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 6
+    }
+  },
+  {
+    "_id": "AC:84:C6:BB:21:10",
+    "device_profile": {
+      "mac_id": "AC:84:C6:BB:21:10",
+      "serial_number": "XB8-200010",
+      "model": "XB8",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "device_type": "xfinity_gateway",
+      "manufacture_date": "2024-06-08",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB8-422219"
+    },
+    "device_tags": [
+      "stable_device"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 90,
+      "failure_risk_score": 0.14,
+      "redeploy_safe": true,
+      "last_evaluated": "2025-01-11T10:00:00Z"
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_activation",
+        "timestamp": "2024-08-01T10:00:00Z"
+      },
+      {
+        "event_type": "network_stability_verified",
+        "timestamp": "2024-09-02T10:00:00Z"
+      },
+      {
+        "event_type": "wifi_performance_issue",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-04T10:00:00Z",
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM"
+        ]
+      },
+      {
+        "event_type": "wifi_signal_recovered",
+        "timestamp": "2024-09-04T11:00:00Z"
+      }
+    ],
+    "inventory_info": {
+      "procurement_date": "2024-03-04",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-CHI-01",
+      "warehouse_bin": "BIN-A12",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-1015533",
+      "customer_id": "CUS-1015533",
+      "current_service_location": "customer_home_10",
+      "activation_platform": "Titan_API"
+    },
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-11T12:00:00Z",
+      "snr": 38,
+      "downstream_power": 1.6,
+      "upstream_power": 40,
+      "packet_loss": 0.1,
+      "latency_ms": 12,
+      "temperature_c": 45,
+      "cpu_usage_percent": 30,
+      "memory_usage_percent": 52,
+      "reboots_last_30_days": 0,
+      "connected_wifi_clients": 5
+    }
+  },
+  {
+    "_id": "AC:84:C6:9A:11:22",
+    "device_profile": {
+      "mac_id": "AC:84:C6:9A:11:22",
+      "serial_number": "XB7-7738291",
+      "model": "XB7",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2024-02-14",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB7-992817"
+    },
+    "inventory_info": {
+      "procurement_date": "2024-03-01",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-02",
+      "warehouse_bin": "BIN-A23",
+      "inventory_system": "SCOT",
+      "current_status": "active_at_customer"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-882193",
+      "customer_id": "CUS-882193",
+      "current_service_location": "customer_home_2",
+      "activation_platform": "Titan_API"
+    },
+    "device_tags": [
+      "multiple_failures",
+      "customer_complaint_linked",
+      "post_repair_monitoring"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 0,
+      "failure_risk_score": 1.0,
+      "redeploy_safe": false,
+      "truck_roll_count": 2,
+      "last_evaluated": "2026-03-12T18:58:01.000Z",
+      "recommendation": {
+        "recommendation_message": "Device has significant reliability issues (Health: 0/100, Risk: 1.00). STRONGLY NOT RECOMMENDED for redeployment.",
+        "key_concerns": [
+          "4 warehouse repair/refurbishment event(s)",
+          "3 device return/customer complaint event(s)",
+          "2 device crash event(s)",
+          "1 thermal event(s)",
+          "1 memory pressure event(s)",
+          "1 kernel panic event(s)"
+        ]
+      }
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "device_procured",
+        "event_category": "warehouse",
+        "timestamp": "2024-03-01T08:00:00Z",
+        "warehouse_id": "WH-DEN-02"
+      },
+      {
+        "event_type": "stored_in_bin",
+        "event_category": "warehouse",
+        "timestamp": "2024-03-02T09:00:00Z",
+        "bin_location": "BIN-A23"
+      },
+      {
+        "event_type": "device_shipped_to_customer",
+        "event_category": "lifecycle",
+        "timestamp": "2024-07-14T09:20:00Z",
+        "customer_account_number": "ACC-882193",
+        "tracking_id": "TRK-992181"
+      },
+      {
+        "event_type": "device_activation",
+        "event_category": "lifecycle",
+        "timestamp": "2024-07-15T13:20:00Z",
+        "firmware_version": "6.1p5"
+      },
+      {
+        "event_type": "wifi_performance_issue",
+        "event_category": "telemetry",
+        "timestamp": "2024-09-02T11:00:00Z",
+        "metrics": {
+          "snr": 32,
+          "rssi": -68,
+          "wifi_temperature_2g": 92
+        },
+        "telemetry_markers": [
+          "RF_ERROR_NoOFDM",
+          "WifiTemp_2G_split"
+        ]
+      },
+      {
+        "event_type": "memory_pressure_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-11-02T05:10:00Z",
+        "metrics": {
+          "memory_usage_mb": 650
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_MemAbove600",
+          "advresmem_split"
+        ]
+      },
+      {
+        "event_type": "kernel_panic_detected",
+        "event_category": "telemetry",
+        "timestamp": "2024-11-10T04:00:00Z",
+        "metrics": {
+          "panic_count": 3
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_kp_work_pending",
+          "SYS_ERROR_KMSG_Buffer_overrun"
+        ]
+      },
+      {
+        "event_type": "device_crash",
+        "event_category": "crash",
+        "timestamp": "2024-11-12T04:33:00Z",
+        "component": "rdkssacli",
+        "crashPath": "minidump/2026/2/24/23/CGM4981COM/CGM4981COM_DEV_26Q1_sprint_20260223134046sdy/dev/mac4075C33ADF76_dat2026-02-24-23-57-47_boxXB6_modCGM4981COM_rdkssacli_a80e8dc3-6ecc-48f3-cc9842b8-b046b541.dmp.tgz"
+      },
+      {
+        "event_type": "thermal_reboot",
+        "event_category": "telemetry",
+        "timestamp": "2024-12-10T02:15:00Z",
+        "metrics": {
+          "chip_temperature": 101
+        },
+        "telemetry_markers": [
+          "SYS_ERROR_Thermal_reboot",
+          "thermal_ChipTemp_split",
+          "reboot_reason_split"
+        ]
+      },
+      {
+        "event_type": "customer_complaint",
+        "event_category": "customer_experience",
+        "timestamp": "2024-12-16T09:30:00Z",
+        "issue": "frequent_disconnects"
+      },
+      {
+        "event_type": "truck_roll",
+        "event_category": "field_operations",
+        "timestamp": "2024-12-18T11:00:00Z",
+        "technician_id": "TECH-3382",
+        "resolution": "temporary_signal_fix"
+      },
+      {
+        "event_type": "device_crash",
+        "event_category": "crash",
+        "timestamp": "2024-12-19T02:41:00Z",
+        "component": "wifi_hal",
+        "crashPath": "minidump/2026/2/25/01/XB7/macAC84C69A1122_wifi_hal_crash_dump_9de4d2b1.tgz"
+      },
+      {
+        "event_type": "truck_roll",
+        "event_category": "field_operations",
+        "timestamp": "2024-12-20T10:30:00Z",
+        "technician_id": "TECH-4419",
+        "resolution": "device_replacement_required"
+      },
+      {
+        "event_type": "device_deactivated",
+        "event_category": "lifecycle",
+        "timestamp": "2024-12-20T10:45:00Z",
+        "reason": "multiple_failures"
+      },
+      {
+        "event_type": "warehouse_diagnostics",
+        "event_category": "warehouse",
+        "timestamp": "2024-12-25T12:00:00Z",
+        "diagnostics_results": [
+          "nvram_corruption_confirmed",
+          "wifi_module_fault"
+        ]
+      },
+      {
+        "event_type": "refurbishment",
+        "event_category": "repair",
+        "timestamp": "2024-12-27T16:00:00Z",
+        "actions": [
+          "nvram_reset",
+          "firmware_flash_6.7p8",
+          "wifi_module_replacement"
+        ]
+      }
+    ],
+    "latest_telemetry_snapshot": {
+      "timestamp": "2025-01-10T15:15:00Z",
+      "snr": 36,
+      "downstream_power": 1.5,
+      "upstream_power": 38,
+      "packet_loss": 0.4,
+      "latency_ms": 18,
+      "temperature_c": 52,
+      "cpu_usage_percent": 45,
+      "memory_usage_percent": 63,
+      "reboots_last_30_days": 2,
+      "connected_wifi_clients": 9
+    }
+  },
+  {
+    "_id": "XB7:12:34:56:78:90",
+    "device_profile": {
+      "mac_id": "XB7:12:34:56:78:90",
+      "serial_number": "XB7-1234567890",
+      "model": "XB7",
+      "device_type": "xfinity_gateway",
+      "manufacturer": "Technicolor",
+      "platform": "RDK-B",
+      "manufacture_date": "2022-06-15",
+      "mtbf_hours": 50000,
+      "trace_id": "TRACE-XB7-123456"
+    },
+    "inventory_info": {
+      "procurement_date": "2022-06-20",
+      "procurement_vendor": "Technicolor",
+      "warehouse_id": "WH-DEN-01",
+      "warehouse_bin": "BIN-A04",
+      "inventory_system": "SCOT",
+      "current_status": "in_inventory"
+    },
+    "customer_association": {
+      "customer_account_number": "ACC-100001",
+      "customer_id": "CUS-100001",
+      "current_service_location": "location3",
+      "activation_platform": "Titan_API"
+    },
+    "device_tags": [
+      "overheating_issue",
+      "frequent_disconnects",
+      "multiple_truck_rolls",
+      "was_repaired",
+      "wifi_module_replaced"
+    ],
+    "ai_health_metrics": {
+      "device_health_score": 37,
+      "failure_risk_score": 0.63,
+      "redeploy_safe": false,
+      "truck_roll_count": 4,
+      "last_evaluated": "2023-06-15T00:00:00.000Z",
+      "recommendation": {
+        "recommendation_message": "Device has critical reliability issues (Health: 37/100, Risk: 0.63). DO NOT DEPLOY — return to repair facility or retire.",
+        "key_concerns": [
+          "4 truck rolls detected",
+          "2 repair events recorded",
+          "Overheating history — returned to depot",
+          "WiFi module replaced at depot",
+          "High reboot rate: 12 reboots / 30 days"
+        ]
+      }
+    },
+    "lifecycle_events": [
+      {
+        "event_type": "return",
+        "event_category": "return",
+        "timestamp": "2023-06-15T00:00:00Z",
+        "component": "device"
+      },
+      {
+        "event_type": "repair",
+        "event_category": "repair",
+        "timestamp": "2023-06-02T00:00:00Z",
+        "component": "wifi_module"
+      },
+      {
+        "event_type": "truck_roll",
+        "event_category": "field",
+        "timestamp": "2023-05-28T00:00:00Z",
+        "component": "wifi_radio"
+      },
+      {
+        "event_type": "truck_roll",
+        "event_category": "field",
+        "timestamp": "2023-03-05T00:00:00Z",
+        "component": "power_supply"
+      }
+    ],
+    "latest_telemetry_snapshot": {
+      "timestamp": "2023-06-15T00:00:00Z",
+      "snr": 22,
+      "downstream_power": -1.2,
+      "upstream_power": 48,
+      "packet_loss": 0.85,
+      "latency_ms": 38,
+      "temperature_c": 74,
+      "cpu_usage_percent": 71,
+      "memory_usage_percent": 68,
+      "reboots_last_30_days": 12,
+      "connected_wifi_clients": 5
+    }
+  }
+]

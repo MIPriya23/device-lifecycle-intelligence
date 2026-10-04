@@ -1,0 +1,27 @@
+apiVersion: cnap.comcast.net/v1
+kind: WebService
+metadata:
+  name: dli-ui
+  namespace: rdkdevx-staf
+spec:
+  image: hub.comcast.net/staf/dli-ui:v6
+  regions:
+    - wc
+    - ho
+  livenessProbe:
+    httpGet:
+      path: /health
+      port: 80
+  servicePort: 80
+  startupProbe:
+    httpGet:
+      path: /health
+      port: 80
+    initialDelaySeconds: 90
+
+  serviceClaims:
+    - name: dli-secrets
+      service:
+        provider: Vault
+        path: kv2/comcast-staf/devx/cnap/dli-lab
+      type: env
